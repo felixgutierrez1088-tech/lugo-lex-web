@@ -11,9 +11,9 @@ export default function App() {
   const [menuAbierto, setMenuAbierto] = useState(false);
 
   return (
-    <div className="min-h-screen bg-white text-slate-900 font-sans selection:bg-amber-700 selection:text-white" translate="no">
+    <div className="min-h-screen bg-neutral-50 text-slate-900 font-sans ...">
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-white border-b border-neutral-200">
+      <header className="sticky top-0 z-50 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-[1500px] mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-4">
           <img
