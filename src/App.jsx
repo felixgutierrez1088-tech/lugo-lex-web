@@ -62,7 +62,7 @@ export default function App() {
         </div>
 
         {menuAbierto && (
-          <div className="xl:hidden bg-white border-b border-neutral-200 px-6 py-6 flex flex-col gap-4 text-xs font-semibold tracking-widest uppercase text-neutral-700">
+          <div className="xl:hidden bg-neutral-50 border-b border-neutral-200 px-6 py-6 flex flex-col gap-4 text-xs font-semibold tracking-widest uppercase text-neutral-700">
             <a href="#inicio" onClick={() => setMenuAbierto(false)}>Inicio</a>
             <a href="#areas" onClick={() => setMenuAbierto(false)}>Áreas de Práctica</a>
             <a href="#mediacion" onClick={() => setMenuAbierto(false)}>Centro de Mediación</a>
