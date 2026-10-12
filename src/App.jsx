@@ -22,10 +22,17 @@ export default function App() {
             className="w-16 h-16 rounded-full object-cover flex-shrink-0 border border-neutral-200 shadow-sm"
           />
 
-          <div className="leading-tight flex-shrink-0">
-            <span className="block text-xl font-bold tracking-widest text-neutral-900">LUGO</span>
-            <span className="block text-[10px] tracking-widest text-[#A88246] font-bold uppercase">LEX</span>
-            <span className="block text-[9px] tracking-normal text-neutral-400 font-medium">FIRMA JURÍDICA Y CONTABLE</span>
+         <div className="leading-tight">
+            <div className="flex items-baseline gap-1.5">
+              <span className="text-xl font-bold tracking-widest text-neutral-900">LUGO</span>
+              <span className="text-xl font-bold tracking-widest text-[#A88246]">LEX</span>
+            </div>
+            <span className="block text-[9px] tracking-wider text-neutral-500 font-medium uppercase">
+              FIRMA JURÍDICA Y CONTABLE
+            </span>
+            <span className="block text-[8px] tracking-tight text-neutral-400 uppercase">
+              CENTRO DE MEDIACIÓN PRIVADO NO. 221
+            </span>
           </div>
         </div>
 
