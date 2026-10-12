@@ -15,18 +15,19 @@ export default function App() {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white border-b border-neutral-200">
         <div className="max-w-[1500px] mx-auto px-6 h-20 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-           <img 
-  src={logoFirma} 
-  alt="Logo Lugo Lex" 
-  className="w-11 h-11 object-cover rounded-full overflow-hidden"
-/>
-            <div className="leading-tight">
-              <span className="block text-lg font-bold tracking-widest text-neutral-900 font-serif">LUGO LEX</span>
-              <span className="block text-[9px] tracking-wider text-[#A88246] font-semibold uppercase">Firma Jurídica y Contable</span>
-              <span className="block text-[8px] tracking-tight text-neutral-400 uppercase">Centro de Mediación Privado No. 221</span>
-            </div>
+          <div className="flex items-center gap-4">
+          <img
+            src={logoFirma}
+            alt="Logo Lugo Lex"
+            className="w-16 h-16 rounded-full object-cover flex-shrink-0 border border-neutral-200 shadow-sm"
+          />
+
+          <div className="leading-tight flex-shrink-0">
+            <span className="block text-xl font-bold tracking-widest text-neutral-900">LUGO</span>
+            <span className="block text-[10px] tracking-widest text-[#A88246] font-bold uppercase">LEX</span>
+            <span className="block text-[9px] tracking-normal text-neutral-400 font-medium">FIRMA JURÍDICA Y CONTABLE</span>
           </div>
+        </div>
 
           <nav className="hidden xl:flex items-center gap-7 text-[11px] font-semibold tracking-widest text-neutral-600 uppercase">
             <a href="#inicio" className="hover:text-black transition">Inicio</a>
