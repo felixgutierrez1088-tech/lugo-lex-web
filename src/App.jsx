@@ -19,7 +19,7 @@ export default function App() {
            <img 
   src={logoFirma} 
   alt="Logo Lugo Lex" 
-  className="w-11 h-11 object-contain rounded-full border border-neutral-800/80 shadow-md"
+  className="w-11 h-11 object-cover rounded-full overflow-hidden"
 />
             <div className="leading-tight">
               <span className="block text-lg font-bold tracking-widest text-neutral-900 font-serif">LUGO LEX</span>
