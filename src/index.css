@@ -1,1 +1,29 @@
 @import "tailwindcss";
+/* Textura geométrica tipo logo Lugo Lex con movimiento fluido tipo oleaje */
+@keyframes flujoOleajeTextura {
+  0% {
+    background-position: 0px 0px, 0px 0px;
+    transform: scale(1.04) translate(0px, 0px);
+  }
+  50% {
+    background-position: 120px 60px, -80px 40px;
+    transform: scale(1.08) translate(-12px, -8px);
+  }
+  100% {
+    background-position: 240px 0px, -160px 0px;
+    transform: scale(1.04) translate(0px, 0px);
+  }
+}
+
+.bg-textura-lugolex {
+  background-color: #fafafa;
+  background-image:
+    linear-gradient(135deg, rgba(225, 228, 232, 0.45) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(215, 219, 224, 0.45) 25%, transparent 25%),
+    linear-gradient(45deg, rgba(228, 231, 235, 0.4) 25%, transparent 25%),
+    linear-gradient(315deg, rgba(255, 255, 255, 0.85) 25%, #f4f5f7 25%);
+  background-position: 60px 0, 60px 0, 0 0, 0 0;
+  background-size: 120px 120px;
+  background-repeat: repeat;
+  animation: flujoOleajeTextura 18s ease-in-out infinite;
+}
